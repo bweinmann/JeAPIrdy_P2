@@ -1,0 +1,48 @@
+
+.window {
+    text-align: center;
+    font-size: 20px, 3vw;
+    margin-top: 20vh;
+    align-content: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 4em auto;
+}
+
+.type {
+    display: block;
+    border: 3px solid #FFD700;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #FFD700;
+    background-color: #060CE9;
+    transition: 0.3s;
+    font-size: 1.2em;
+    outline: none;
+    user-select: none;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.type:hover {
+    color: white;
+    background-color: #FFD700;
+}
+
+.question {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 640px) {
+   
+    .options {
+        width: 50%;
+    }
+}

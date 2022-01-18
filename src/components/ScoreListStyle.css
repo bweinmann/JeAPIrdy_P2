@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+.scores {
+    /* flex-wrap:wrap; */
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+}
+
+.info {
+    padding: 20px;
+}
